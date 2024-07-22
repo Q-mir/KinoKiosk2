@@ -11,6 +11,8 @@
         
         <Button Text="Search" Command="{Binding SearchCommand}" />
         
+        <Button BackgroundColor="Green" Margin="0,25,0,0" Text="Add Movie" Command="{Binding AddMovieCommand}" />
+        
         <ListView ItemsSource="{Binding Movies}">
             <ListView.ItemTemplate>
                 <DataTemplate>

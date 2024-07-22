@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KinoKiosk.Data;
+namespace KinoKiosk.Model.Data;
 
 public class MovieActor
 {
